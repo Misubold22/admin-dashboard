@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="search">
+        <button>
+          <i class="fa fa-search"></i>
+        </button>
+        <form action="#">
+          <input type="text" placeholder="Search something" name="search">
+        </form>
+      </div>
+
+      <div class="profile_photo">
+        <img src="./images/notifications_active.svg" alt="Notification">
+        <img src="./images/people.svg" alt="People">
+        <b>John Doe</b>
+      </div>
+
+      <div class="profile_photo-left">
+        <img src="./images/people.svg">
+        <div id="mymain">
+          <div class="head">Hi there,</div>
+          <div class="text">John Doe (@John)</div>
+        </div>
+      </div>
+
+      <div class="menu">
+        <button type="button" class="button" role="button">New</button>
+        <button type="button" class="button" role="button">Upload</button>
+        <button type="button" class="button" role="button">Share</button>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="dashboard">
+        <div class="sidebars">
+          <a href="#dashboard">
+            <img src="./images/view-dashboard-outline.svg" alt="My Profile">Dashboard
+          </a>
+        </div>
+        <a href="#home">
+          <img src="./images/home-account.svg" alt="Home icon">Home
+        </a>
+        <a href="#profile">
+          <img src="./images/profile.svg" alt="My Profile icon">Profile
+        </a>
+        <a href="#messages">
+          <img src="./images/chat.svg" alt="Message icon">Messages
+        </a>
+        <a href="#history">
+          <img src="./images/history.svg" alt="History icon">History
+        </a>
+        <a href="#tasks">
+          <img src="./images/notes.svg" alt="Tasks icon">Tasks
+        </a>
+        <a href="#communities">
+          <img src="./images/communities.svg" alt="Communities icon">Communities
+        </a>
+        <a href="#settings">
+          <img src="./images/settings.svg" alt="Settings icon">Settings
+        </a>
+        <a href="#support">
+          <img src="./images/support.svg" alt="Support icon">Support
+        </a>
+        <a href="#privacy">
+          <img src="./images/security.svg" alt="Privacy icon">Privacy
+        </a>
+      </div>
+    </div>
+
+    <div class="context-nav">
+      <ul>
+        <li class="projects">Your Projects</li>
+        <li class="announcements">Announcements</li>
+      </ul>
+    </div>
+
+    <div class="article">
+
+      <div class="right-sidebar">
+        <div class="announcements-content">
+          <p class="title">Site Maintenance</p>
+          <p>Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec henrerit sodales congue...</p>
+          <p class="title">Community Share Day</p>
+          <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan portitor...</p>
+          <p class="title">Updated Privacy Policy</p>
+          <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis...</p>
+        </div>
+
+        <h4 class="main-trends">Trending</h4>
+        <div class="announcements-content">
+          <div class="trend">
+            <img src="./images/user.png" alt="Yellow moon cartoon" class="trendImage">
+            <p class="username">@tegan</p>
+            <p class="trendDescription">World Peace Builder</p>
+          </div>
+          <div class="trend">
+            <img src="./images/people.svg" alt="Yellow moon cartoon" class="trendImage">
+            <p class="username">@john</p>
+            <p class="trendDescription">Super Cool Project</p>
+          </div>
+          <div class="trend">
+            <img src="./images/yellow-moon.jpg" alt="Yellow moon cartoon" class="trendImage">
+            <p class="username">@kendall</p>
+            <p class="trendDescription">Life Changing App</p>
+          </div>
+          <div class="trend">
+            <img src="./images/account.png" alt="Yellow moon cartoon" class="trendImage">
+            <p class="username">@alex</p>
+            <p class="trendDescription">No Traffic Maker</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <p class="title">Super Cool Project</p>
+          <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+          <img src="./images/source-fork.svg"  alt="Fork Icon">
+          <img src="./images/eye-plus-outline.svg" alt="Eye Icon">
+          <img src="./images/star-plus-outline.svg" alt="Star Icon">
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <p class="title">Impossible App</p>
+          <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu. a placerat velit sagittis id.</p>
+          <img src="./images/source-fork.svg" alt="Fork Icon">
+          <img src="./images/eye-plus-outline.svg"  alt="Eye Icon">
+          <img src="./images/star-plus-outline.svg">
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <p class="title">Less Cool Project</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+          <img src="./images/source-fork.svg" alt="Fork Icon">
+          <img src="./images/eye-plus-outline.svg"  alt="Eye Icon">
+          <img src="./images/star-plus-outline.svg" alt="Star Icon">
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <p class="title">Easy Peasy App</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+          <img src="./images/source-fork.svg" alt="Fork Icon">
+          <img src="./images/eye-plus-outline.svg"  alt="Eye Icon">
+          <img src="./images/star-plus-outline.svg" alt="Star Icon">
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <p class="title">Ad Blocker</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+          <img src="./images/source-fork.svg" alt="Fork Icon">
+          <img src="./images/eye-plus-outline.svg" alt="Eye Icon">
+          <img src="./images/star-plus-outline.svg" alt="Star Icon">
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <p class="title">Money Maker</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud...</p>
+          <img src="./images/source-fork.svg" alt="Fork Icon">
+          <img src="./images/eye-plus-outline.svg" alt="Eye Icon">
+          <img src="./images/star-plus-outline.svg" alt="Star Icon">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
